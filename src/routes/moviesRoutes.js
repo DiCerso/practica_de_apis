@@ -13,5 +13,7 @@ router.get('/edit/:id', moviesController.edit);
 router.put('/update/:id', moviesController.update);
 router.get('/delete/:id', moviesController.delete);
 router.delete('/delete/:id', moviesController.destroy);
+router.post('/buscar', moviesController.buscar);
+
 
 module.exports = router;
